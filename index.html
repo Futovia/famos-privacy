@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>famOS Privacy Policy</title>
+    <style>
+      :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+      body { margin: 0; background: #faf3e7; color: #171512; }
+      main { box-sizing: border-box; max-width: 760px; min-height: 100vh; margin: auto; padding: 40px 16px 80px; }
+      nav { font-size: 0.95rem; margin-bottom: 28px; }
+      nav span[aria-current] { font-weight: 600; }
+      h1 { font-size: clamp(1.9rem, 7vw, 3rem); letter-spacing: -0.03em; margin: 0 0 12px; }
+      h2 { font-size: 1.25rem; margin-top: 36px; }
+      p, li { font-size: 1rem; line-height: 1.65; overflow-wrap: anywhere; }
+      li { margin-bottom: 6px; }
+      .eyebrow, .meta { color: #625f58; }
+      .meta { margin: 0 0 6px; }
+      a { color: #4f46e5; }
+      @media (prefers-color-scheme: dark) {
+        body { background: #15130f; color: #f7f3eb; }
+        .eyebrow, .meta { color: #bcb6aa; }
+        a { color: #a9a2ff; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav aria-label="famOS pages"><span aria-current="page">Privacy Policy</span> · <a href="support.html">Support</a></nav>
+      <p class="eyebrow">Futovia Pte. Ltd. · Singapore</p>
+      <h1>famOS Privacy Policy</h1>
+      <p class="meta">Operator: Futovia Pte. Ltd.</p>
+      <p class="meta">Effective: 16 October 2026</p>
+      <p>famOS is a private app for one family. Members join by an invitation from the family owner. This page says what the app processes, where it is kept, who can see it and how to remove it. The app and server code are the source of truth; where this page and the code differ, the code wins and this page is corrected.</p>
+      <h2>Information we collect</h2>
+      <p><strong>Account</strong></p>
+      <ul>
+        <li>Email address and display name.</li>
+        <li>With Sign in with Apple: the account identifier Apple sends, and the email address or Hide My Email relay address Apple provides. We store both. Apple sends your name once, as a suggestion for your display name; you confirm or change it before it is saved. If Apple withholds the address, a placeholder is stored instead.</li>
+        <li>A one-way login verifier derived on your phone from your password or vault passphrase (the password itself is never sent), and your private key in encrypted form, which the server cannot open. If your account has a recovery code, a one-way verifier of it.</li>
+        <li>Optional: birthday, phone number, Venmo username, and the phone numbers or email addresses you add under "How to reach me".</li>
+        <li>Your family's name, your role (owner, parent, adult, teen), nickname, guardian links, Show-in-app settings and notification preferences.</li>
+      </ul>
+      <p><strong>Family content encrypted on your phone before upload.</strong> The server stores it as ciphertext and cannot read it.</p>
+      <ul>
+        <li>Time Capsule memories: photos, voice recordings, text, titles, captions, categories and the event they were added from.</li>
+        <li>Document file contents.</li>
+        <li>To-do titles, notes and locations. Bill titles. Comments on a memory, to-do or bill.</li>
+        <li>Event descriptions, FAQ questions and answers, and the location field kept inside the sealed details.</li>
+      </ul>
+      <p><strong>Family content stored readable on the server.</strong> It has to be readable so reminders, texts and the shared list web page can carry it.</p>
+      <ul>
+        <li>Event and activity titles, locations, dates, times, colour labels, RSVPs and roles.</li>
+        <li>Bill amounts, currency, who paid, who owes what, settlement states, corrections, money requests and their reasons. Chore reward lines.</li>
+        <li>To-do due dates, states, assignee, approval status, reward amounts and rejection notes.</li>
+        <li>Notes, announcements, alerts, chat messages, and comments on events, announcements, notes and lists.</li>
+        <li>Lists, list items, example links, and who ticked or claimed each item. Document titles, kinds, file types and sizes.</li>
+        <li>Reports you make about a post: who reported, to whom, the reason, and the post's content only when you tick the box to share it with support.</li>
+      </ul>
+      <p><strong>People who do not have an account</strong></p>
+      <ul>
+        <li>Members without a login: name, role, optional birthday and phone, added by an adult in the family.</li>
+        <li>Invitations: the name, role, relationship, birthday, email and phone the inviter types.</li>
+        <li>Money requests to someone outside the family: their name, phone or email, the amount and a note.</li>
+        <li>Shared list web page: the name typed by whoever ticks an item. It is stored on that item and shown to the family as "Done by &lt;name&gt; (web)".</li>
+      </ul>
+      <p><strong>Device and technical</strong></p>
+      <ul>
+        <li>An Apple push notification token for each device where you allow notifications, with the platform and the date it was added. It is used only to send you notifications. Tokens Apple reports as dead are deleted.</li>
+        <li>Session tokens. A session lasts up to 60 days without use.</li>
+        <li>An activity log: who did what and when, as an action name and record ids. Never content.</li>
+        <li>A record of each notification attempt: the device token, the generic sentence sent, and whether it went through.</li>
+        <li>IP addresses are held in the server's memory to rate-limit sign-in, recovery and the shared list page. The app server does not store them. Railway, which hosts the server, keeps request logs for its own operation.</li>
+        <li>Server error logs hold a request id, method and path. No content.</li>
+        <li>The server address is built into the app. At launch it contacts that server and nothing else; no third party is asked for the address. You can set a different server address by hand in the app.</li>
+      </ul>
+      <h2>How we use information</h2>
+      <p>Only to run the app: sign you in, show your family what you shared with them, enforce roles and approvals, send the notifications you allow, and answer support requests.</p>
+      <p>No advertising, no analytics, no crash reporting, no tracking across other companies' apps or websites, no sale of personal information. The app contains no analytics or advertising libraries. It does include Google's sign-in library, which is never started in this version; Google sign-in is not offered.</p>
+      <h2>Who can see what</h2>
+      <ul>
+        <li>Your family only. There is no public feed and no search across families.</li>
+        <li>Audiences: each memory, event, bill, document or to-do is shared with a circle: everyone in the family, parents only, a named group, or selected adults. People outside the circle receive no key and cannot read it.</li>
+        <li>Owner: manages members, roles, invitations and groups; transfers ownership; can delete family-circle posts. Being the owner does not unlock adults' private memories or bills.</li>
+        <li>Parents and guardians: see a linked teen's posts; approve or send back a teen's held posts and chores; approve or decline a teen's money requests; can delete the teen's posts; receive reports addressed "to a parent".</li>
+        <li>Teens: post to the family and cannot change guardian links; assign to-dos only to themselves; send money requests only to their linked parent.</li>
+        <li>Bills: only the bill's participants see its amounts and who owes whom.</li>
+        <li>Shared list web page: anyone who has the link sees the list title, the event it is for, each item's text, note and example link, who ticked or claimed it and when. They can tick open items and type a name. They see nothing else of the family's and never a photo. The link stops working 30 days after it was made, or when a member taps Stop sharing.</li>
+        <li>Operators: an admin panel shows counts, plans, timestamps and reports addressed to support. It has no way to show memory content, document content, keys or sealed keys.</li>
+        <li>Removed members lose access to anything new. Copies already on their phone cannot be recalled.</li>
+      </ul>
+      <h2>Where it is stored and who else handles it</h2>
+      <ul>
+        <li>A server run by the operator and hosted by Railway holds the database and the encrypted file store.</li>
+        <li>Apple verifies Sign in with Apple and delivers push notifications. The server talks to Apple's push service directly; no relay. Push notifications carry your family's name, a generic sentence such as "New memory shared with you", and record ids. Never content.</li>
+        <li>Venmo, Mail, Messages and Calendar are opened on your phone with the text or event prefilled. The server sends no email or text message and has no provider for either.</li>
+        <li>Connections use HTTPS.</li>
+      </ul>
+      <h2>Security</h2>
+      <ul>
+        <li>Memories, documents and the sealed fields above are encrypted on your device with XChaCha20-Poly1305. Keys are shared to each member with X25519. Your password or vault passphrase is turned into keys with Argon2id on the device.</li>
+        <li>The server holds your private key only in encrypted form and verifies your login without being able to open it.</li>
+        <li>A recovery code is shown once at sign-up. Your password or passphrase and the recovery code are the only ways to open your memories on a new phone. If both are lost, encrypted content cannot be recovered by anyone, including the operator.</li>
+        <li>Export (Settings → Export) gives you an archive of what you can access. Memories and documents in it are encrypted and open offline with your password or recovery code. The archive is built on the server and can be downloaded once, only by the person who asked for it. It is removed from the server after that download, or 24 hours after it was made, whichever comes first.</li>
+      </ul>
+      <h2>Retention and deletion</h2>
+      <ul>
+        <li>Information is kept while your account is active.</li>
+        <li>Delete your account in the app: Settings → Delete account, then enter your password or vault passphrase. If you own a family that still has other members, transfer ownership first.</li>
+        <li>Deletion removes or replaces: email, name, birthday, phone, Venmo username, keys, Apple sign-in link, sessions, push tokens, reach-me addresses, notification preferences, guardian links and family memberships. Your account becomes "Deleted member" and cannot sign in.</li>
+        <li>What stays: posts you shared with others stay with your family, shown as by "Deleted member": memories (readable only by the circle that holds the key), events, to-dos, bills and balances, comments, notes, lists, documents. Activity log rows keep record ids.</li>
+        <li>What goes with your account: your memories and documents that nobody else could open - in a group with no one else left in it, still uploading, or still waiting for a parent's approval - are marked deleted and their encrypted files are removed from the server.</li>
+        <li>Deleting a memory or document marks it deleted and removes its encrypted file from the server in the same request. Nobody can open or fetch it through the app from then on. Copies already on family members' phones cannot be recalled.</li>
+        <li>Export archives are removed from the server after they are downloaded once, or 24 hours after they were made, whichever comes first.</li>
+        <li>The operator keeps no backup copies of its own. Railway holds the server's disk and keeps what it needs to run the service.</li>
+        <li>Shared list links: open the list and tap Stop sharing. Links also expire 30 days after they were made.</li>
+      </ul>
+      <h2>Children</h2>
+      <ul>
+        <li>famOS is for adults and for teens aged 13 and over who are invited by a family owner. A teen holds an account only inside a family, with a role assigned by the owner.</li>
+        <li>Accounts for children under 13 are not allowed. The app does not ask for your age; the owner who invites a member is responsible for this rule. A family can record a younger child as a member without a login (name, optional birthday) under an adult's management; that child has no sign-in, no content and no notifications.</li>
+        <li>If you believe a child under 13 has an account, contact us and we will remove it.</li>
+      </ul>
+      <h2>Your choices</h2>
+      <ul>
+        <li>Deny photo, camera, microphone or calendar permission; the app works without them.</li>
+        <li>Turn notifications off in iPhone Settings.</li>
+        <li>Hide a post, block a member's posts, report a post to a parent or to support.</li>
+        <li>Sign out, leave a family (owner: transfer first), export, delete your account.</li>
+      </ul>
+      <h2>International processing</h2>
+      <p>The server is hosted by Railway and may be in a country other than yours. Apple processes the items named above in its own locations.</p>
+      <h2>Changes</h2>
+      <p>The effective date above changes when this page does. Material changes are announced in the app.</p>
+      <h2>Contact</h2>
+      <p><a href="mailto:joao@futovia.com">joao@futovia.com</a></p>
+      <p>Futovia Pte. Ltd.</p>
+    </main>
+  </body>
+</html>
